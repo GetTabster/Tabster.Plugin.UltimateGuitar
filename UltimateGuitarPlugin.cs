@@ -3,6 +3,7 @@
 using System;
 using System.Runtime.InteropServices;
 using Tabster.Core.Plugins;
+using Tabster.Core.Types;
 
 #endregion
 
@@ -32,9 +33,9 @@ namespace UltimateGuitar
             get { return "Ultimate Guitar"; }
         }
 
-        public Version Version
+        public TabsterVersion Version
         {
-            get { return new Version("1.0"); }
+            get { return new TabsterVersion("1.0"); }
         }
 
         public Uri Website
