@@ -20,7 +20,7 @@ namespace UltimateGuitar
 
         public string Copyright
         {
-            get { return "Copyright © Nate Shoffner 2014"; }
+            get { return "Copyright © Nate Shoffner 2016"; }
         }
 
         public string Description
